@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 2pxsolid#fff;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#spaceship {
+    position: absolute;
+    bottom: 20px;
+    left: 370px;
+    width: 50px; 
+    height: 50px;
+    background-color: #00f;
+    border-radius: 50%;
+}
+
+
+.laser {
+    position: absolute;	
+    width: 5px;
+    height: 50px;
+    background-color: red;
+}
+
+.asteroid {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(185, 68, 68);
+    border-radius: 50%;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
